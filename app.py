@@ -1,7 +1,7 @@
 #first change
 import os
 from flask import Flask
-app = Flask(__name__)
+app = Flask(__name_sample__)
 
 @app.route("/")
 def main():
